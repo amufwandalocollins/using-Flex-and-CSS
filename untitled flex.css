@@ -1,0 +1,131 @@
+.products{
+          display: flex;
+          flex-flow: row;
+          /*flex-flow: column;*/
+          /*justify-content: center;*/ 
+      
+          align-items:center;
+        }
+        .products > div:nth-child(2){
+        margin: 0 2em;
+      }
+      html {
+  background: mediumseagreen;
+  font-size: 14px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+    font-family: sans-serif;
+    padding: 10px;
+}
+  body {
+  color: #666;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+     .image{
+      display: flex;
+          flex-flow: column;
+        align-items:right;
+        /*justify-content: center;*/
+      
+
+
+     }
+     img{
+      padding-left: 50px;
+      border-radius: 2%;
+      
+     }
+        header {
+        background: aqua;
+        height: 100px;
+      }
+       article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+      }
+
+      .h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      section {
+  display: flex;
+  flex-direction: column;
+}
+.section{
+  display: flex;
+  ms-transform: rotate(4deg); /* IE 9 */
+}
+        .typing {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  margin: 0 auto; /
+  letter-spacing: .15em; 
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  5% { border-color: red; }
+}
+button{
+ 
+    border: none;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: red; 
+    color:blue;
+}
+     . default.asp{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
